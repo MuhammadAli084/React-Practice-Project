@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/React-Practice-Project/static/css/main.59722383.chunk.css",
+    "main.css": "/React-Practice-Project/static/css/main.77e2cb52.chunk.css",
     "main.js": "/React-Practice-Project/static/js/main.7a9cfc4c.chunk.js",
     "main.js.map": "/React-Practice-Project/static/js/main.7a9cfc4c.chunk.js.map",
     "runtime-main.js": "/React-Practice-Project/static/js/runtime-main.5ec62df3.js",
@@ -12,14 +12,14 @@
     "static/js/3.bec9ae30.chunk.js.map": "/React-Practice-Project/static/js/3.bec9ae30.chunk.js.map",
     "index.html": "/React-Practice-Project/index.html",
     "static/css/2.c490997a.chunk.css.map": "/React-Practice-Project/static/css/2.c490997a.chunk.css.map",
-    "static/css/main.59722383.chunk.css.map": "/React-Practice-Project/static/css/main.59722383.chunk.css.map",
+    "static/css/main.77e2cb52.chunk.css.map": "/React-Practice-Project/static/css/main.77e2cb52.chunk.css.map",
     "static/js/2.afc34aaf.chunk.js.LICENSE.txt": "/React-Practice-Project/static/js/2.afc34aaf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.5ec62df3.js",
     "static/css/2.c490997a.chunk.css",
     "static/js/2.afc34aaf.chunk.js",
-    "static/css/main.59722383.chunk.css",
+    "static/css/main.77e2cb52.chunk.css",
     "static/js/main.7a9cfc4c.chunk.js"
   ]
 }
