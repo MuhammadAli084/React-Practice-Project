@@ -1,0 +1,113 @@
+.login-page-inner h1 {
+    margin-bottom: 62px;
+    font-weight: bold;
+}
+
+.login-page-wrapper {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-page {
+    background-color: #fff;
+    min-height: 775px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.16);
+}
+
+.container {
+    max-width: 1364px;
+    margin: 0 auto;
+}
+
+.login-page-inner .btn,
+.login-page-inner .form-control {
+    font-size: 16px;
+    height: 57px;
+    border-radius: 50px;
+    width: 100%;
+    border: none;
+    padding: 0;
+}
+
+.login-page-inner .btn {
+    transition: 0.5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+
+.login-page-inner .form-control:focus {
+    background-color: #E8E8E8;
+}
+
+.login-page-inner .form-control:focus,
+.login-page-inner .btn:focus {
+    outline: none;
+    box-shadow: none;
+}
+
+.login-page-inner .form-control {
+    padding: 0 47px;
+    background-color: #F7F7F7;
+    border: 1px solid transparent;
+}
+
+.login-page-inner .form-control:focus {
+    border-color: #fff;
+}
+
+.login-page-inner {
+    max-width: 449px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.login-page-inner .get-started {
+    margin-bottom: 23px;
+    background-color: #F9A900;
+}
+
+.login-page-inner .get-started:hover,
+.login-page-inner .get-started:focus {
+    background-color: #ca8c05;
+}
+
+.login-page-inner .facebook-btn {
+    background-color: #566499;
+}
+
+.login-page-inner .facebook-btn:hover,
+.login-page-inner .facebook-btn:focus {
+    background-color: #435285;
+}
+
+.login-page-inner .google-btn {
+    background-color: #2E84FC;
+}
+
+.login-page-inner .google-btn:hover,
+.login-page-inner .google-btn:focus {
+    background-color: #1559b9;
+}
+
+.form-control.is-invalid,
+.was-validated .form-control:invalid {
+    border: 1px solid #dc3545 !important;
+}
+.form-select.is-valid, .was-validated .form-select:valid {
+    border: 1px solid #198754 !important;
+}
+
+.invalid-feedback,
+.valid-feedback {
+    padding-left: 20px;
+}
+
+/* .form-control.is-valid, .was-validated .form-control:valid {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
+} */
