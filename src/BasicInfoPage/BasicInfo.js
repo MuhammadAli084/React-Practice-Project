@@ -2,8 +2,9 @@ import React, { useState } from "react";
 import "./BasicInfo.css";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
+import SignBtn from "../SignBtn/SignBtn";
 
-const BasicInfo = () => {
+const BasicInfo = (props) => {
   const [Reg, setReg] = useState({
     // text: "",
   });
@@ -14,7 +15,6 @@ const BasicInfo = () => {
     const value = event.target.value;
     setReg({ ...Reg, [name]: value });
   };
-
   const handleSubmit = (event) => {
     const form = event.currentTarget;
     if (form.checkValidity() === false) {
@@ -53,11 +53,12 @@ const BasicInfo = () => {
                         <option>Regular User</option>
                         <option>Default select</option>
                         <option>Default select</option>
-                        <option>Default select</option>
-                      </Form.Select>
+                        <option>Default select</option>           
+                      </Form.Select
+                      >
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
+                  <Col xs={12} md={6}>
                     <Form.Group className="mb-3">
                       <Form.Control
                         text="name"
@@ -71,7 +72,7 @@ const BasicInfo = () => {
                       />
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
+                  <Col xs={12} md={6}>
                     <Form.Group className="mb-3">
                       <Form.Control
                         type="text"
@@ -99,12 +100,12 @@ const BasicInfo = () => {
                       />
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
+                  <Col xs={12} md={6}>
                     <Form.Group className="mb-3">
                       <Form.Control type="text" placeholder="City" required />
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
+                  <Col xs={12} md={6}>
                     <Form.Group className="mb-3">
                       <Form.Control
                         type="text"
@@ -113,8 +114,8 @@ const BasicInfo = () => {
                       />
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
-                    <Form.Group className="">
+                  <Col xs={12} md={6}>
+                    <Form.Group className="mb-3">
                       <Form.Control
                         type="text"
                         placeholder="Postal / zip code"
@@ -122,7 +123,7 @@ const BasicInfo = () => {
                       />
                     </Form.Group>
                   </Col>
-                  <Col xs={6} md={6}>
+                  <Col xs={12} md={6}>
                     <Form.Group className="country">
                       <Form.Select>
                         <option>Country</option>
@@ -147,6 +148,7 @@ const BasicInfo = () => {
                       </Button>
                     </Col>
                   </Row>
+                  <SignBtn link="/" title="Sign in" />
                 </div>
               </Form>
             </div>

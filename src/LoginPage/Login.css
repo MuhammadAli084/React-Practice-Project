@@ -62,7 +62,8 @@
 }
 
 .login-page-inner {
-    max-width: 449px;
+    max-width: 470px;
+    padding: 0 20px;
     width: 100%;
     margin: 0 auto;
 }
@@ -99,7 +100,9 @@
 .was-validated .form-control:invalid {
     border: 1px solid #dc3545 !important;
 }
-.form-select.is-valid, .was-validated .form-select:valid {
+
+.form-select.is-valid,
+.was-validated .form-select:valid {
     border: 1px solid #198754 !important;
 }
 
@@ -111,3 +114,13 @@
 /* .form-control.is-valid, .was-validated .form-control:valid {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 8 8'%3e%3cpath fill='%23198754' d='M2.3 6.73L.6 4.53c-.4-1.04.46-1.4 1.1-.8l1.1 1.4 3.4-3.8c.6-.63 1.6-.27 1.2.7l-4 4.6c-.43.5-.8.4-1.1.1z'/%3e%3c/svg%3e") !important;
 } */
+
+@media (max-width:767px) {
+    .facebook-btn {
+        margin-bottom: 23px;
+    }
+
+    .login-page-inner h1 {
+        margin-bottom: 40px;
+    }
+}

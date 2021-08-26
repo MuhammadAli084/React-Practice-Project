@@ -75,9 +75,10 @@
 }
 
 .basic-info-inner {
-    max-width: 621px;
+    max-width: 640px;
     width: 100%;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 .basic-info-inner .next-btn {
@@ -97,7 +98,15 @@
 }
 
 .basic-info-inner .basicinfo-btns {
-
     max-width: 360px;
     margin: 40px auto 0;
+}
+
+@media (max-width:767px) {
+    .basic-info-inner {
+        padding: 40px 20px;
+    }
+    .basic-info-inner h1 {
+        margin-bottom: 40px;
+    }
 }

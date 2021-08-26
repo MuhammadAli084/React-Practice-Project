@@ -2,6 +2,7 @@ import React from "react";
 import "./ContactInfo.css";
 import { Form, Button, Row, Col } from "react-bootstrap";
 import { useHistory } from "react-router-dom";
+import SignBtn from "../SignBtn/SignBtn";
 
 const ContactInfo = () => {
   const contact = useHistory();
@@ -65,6 +66,7 @@ const ContactInfo = () => {
                       <Button onClick={handleBack} className="cancel-btn">Cancel</Button>
                     </Col>
                   </Row>
+                  <SignBtn link="/" title="Sign in"></SignBtn>
                 </div>
               </Form>
             </div>

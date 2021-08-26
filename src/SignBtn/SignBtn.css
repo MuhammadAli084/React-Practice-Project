@@ -1,0 +1,42 @@
+.signup-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 227px;
+    margin: 42px auto 0;
+}
+.signup-btn:before,
+.signup-btn:after {
+    content: '';
+    position: absolute;
+    width: 41px;
+    height: 1px;
+    background-color: #707070;
+    left: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.signup-btn:after {
+    left: auto;
+    right: 0;
+}
+
+.signup-btn span,
+.signup-btn a {
+    font-size: 15px;
+    color: #9C9C9C;
+    font-weight: 400;
+    display: block;
+    margin-right: 5px;
+}
+.signup-btn a {
+    color: #AA6827;
+    font-weight: bold;
+    text-decoration: none;
+    margin-right: 0;
+}
+.signup-btn a:hover {
+    color: #AA6827;
+    text-decoration: underline;
+}
