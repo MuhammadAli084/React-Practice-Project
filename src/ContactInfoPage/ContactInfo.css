@@ -45,7 +45,6 @@
     width: 100%;
     border: none;
     padding: 0;
-    transition: 0.5s;
     color: #fff;
     text-decoration: none;
     display: inline-block;
@@ -53,6 +52,7 @@
 
 .contact-info-inner .btn {
     line-height: 45px;
+    transition: 0.5s;
 }
 
 .contact-info-inner .form-control:focus {
@@ -71,6 +71,7 @@
     padding: 0 47px;
     background-color: #F7F7F7;
     color: #9C9C9C;
+    border: 1px solid transparent;
 }
 
 .contact-info-inner .form-control::placeholder {
